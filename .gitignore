@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.env
+config.local.php
+config.local.*
+secrets.*
+credentials.*
+
+# SQL / Database files
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# PHP
+/vendor/
+composer.lock
+
+# Frontend
+/node_modules/
+/dist/
+/build/
+
+# Logs & Temporary
+*.log
+logs/
+tmp/
+temp/
+cache/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
