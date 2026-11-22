@@ -93,7 +93,7 @@
     })
     .then(function (result) {
       if (result.includes('successfully')) {
-        status.textContent = 'Thank you! Your message has been sent successfully.';
+        status.textContent = 'Message has been delivered successfully.';
         status.style.color = 'green';
         form.reset();
 
